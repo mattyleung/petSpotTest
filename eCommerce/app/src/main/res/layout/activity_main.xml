@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="356dp"
+        android:layout_height="207dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/app_logo2"
+        />
+
+    <TextView
+        android:id="@+id/app_slogon"
+        android:layout_width="275dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/app_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-19dp"
+        android:text="Find your best friend here"
+        android:textSize="22sp" />
+
+
+    <Button
+        android:id="@+id/main_join_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/main_login_button"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/input_design"
+        android:hint="E-mail"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:id="@+id/main_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:text="Already have an account? Login"
+        android:textColor="@android:color/white"
+        ></Button>
+</RelativeLayout>

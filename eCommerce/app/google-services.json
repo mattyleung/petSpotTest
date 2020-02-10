@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "328347471190",
+    "firebase_url": "https://ecommerce-b8e55.firebaseio.com",
+    "project_id": "ecommerce-b8e55",
+    "storage_bucket": "ecommerce-b8e55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328347471190:android:437e33c43e95b8086c1af7",
+        "android_client_info": {
+          "package_name": "com.matty.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328347471190-pt3brthaqa59pmcumaa39a3gtv1hk837.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matty.ecommerce",
+            "certificate_hash": "2e02d8be87cbfaf5831fa036c21dac9bd7393711"
+          }
+        },
+        {
+          "client_id": "328347471190-stu3q7hk8irelirome373c9pehst0c1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz5FRkQZ9f4Q0zwrvkup51FIlpRlpIc3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328347471190-stu3q7hk8irelirome373c9pehst0c1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
